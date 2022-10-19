@@ -28,6 +28,13 @@ html {
 	font-family: 'Ultra', serif;
 }
 
+.titulo {
+font-family: 'Paytone One', sans-serif;
+font-size: 30px;
+line-height: 27px;
+
+}
+
 .special {
     font-family: 'Kanit', sans-serif;
 
@@ -35,11 +42,21 @@ html {
 
 .balazo {
 font-family: 'Kanit', sans-serif;
+font-size: 18px;
+line-height: 27px;
 }
+
+.figcaption {
+font-family: 'Kanit', sans-serif;
+
+}
+
 
 .firma 
 {
 font-family: 'Kanit', sans-serif;
+font-size: 15px;
+line-height: 10px;
 }
 
 .fecha
@@ -51,14 +68,38 @@ font-family: 'Kanit', sans-serif;
 .Subt
 {
 font-family: 'Kanit', sans-serif;
+font-size: 20px;
+
 }
 
 .alt {
 font-family: 'Kanit', sans-serif;
 }
 
+
+.modulo {
+font-family: 'Kanit', sans-serif;
+font-size: 18px;
+
+}
+
+.cita {
+font-family: 'Kanit', sans-serif;
+font-size: 16px;
+}
+
+.nombrecita {
+font-family: 'Kanit', sans-serif;
+font-size: 14px;
+}
+
+.cargocita {
+font-family: 'Kanit', sans-serif;
+font-size: 13px;
+}
 body {
     background-color: whitesmoke;
+    margin: 30px;
 }
 
 img {
@@ -69,7 +110,6 @@ img {
 .header {
     width: 100%;
 }
-
 
 
 /*ADD HERE*/
@@ -99,11 +139,11 @@ figure {
 
 /*ADD HERE*/
 .flex {
-    padding: 10 px;
+    padding: 5 px;
 }
 
 .flex > div {
-    padding: 10 px;
+    padding: 5 px;
 }
 
 
@@ -113,6 +153,11 @@ figcaption {
     color: 3333;
 }
 
+.div.quote {
+    margin: 0;
+    font-size: 0.9rem;
+    color: 3333;
+}
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
 *********************************************************************/
@@ -137,7 +182,7 @@ figcaption {
 
     .flex div {
         flex-basis: 30%;
-        background-color: floralwhite;
+        background-color: #F4D03F;
     }
 
 }
